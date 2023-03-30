@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+}
+
+.card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
